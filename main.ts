@@ -1,4 +1,7 @@
 let time = 0
+input.onButtonPressed(Button.A, function () {
+    time = 0
+})
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     time = -1
